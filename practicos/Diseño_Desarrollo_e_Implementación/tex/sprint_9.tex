@@ -286,7 +286,7 @@ Luego de finalizado este Sprint se obtendrán 4 pantallas que se detallarán a c
 	
 	    \begin{figure}[h]
 	    	\centering
-	    	\includegraphics[width=0.5\textwidth]{img/realizar_comentario}
+	    	\includegraphics[width=0.8\textwidth]{img/realizar_comentario}
 	    	\caption{Sección de comentarios en un análisis}
 	    	\label{realizar_comentario}
 	    \end{figure}
@@ -294,34 +294,34 @@ Luego de finalizado este Sprint se obtendrán 4 pantallas que se detallarán a c
 
 	    \begin{figure}[h]
 	    	\centering
-	    	\includegraphics[width=0.5\textwidth]{img/notificacion_mensaje}
+	    	\includegraphics[width=0.8\textwidth]{img/notificacion_mensaje}
 	    	\caption{Notificaciones de los mensajes}
 	    	\label{notificacion_mensaje}
 	    \end{figure}	
 	    \begin{figure}[h]
 	    	\centering
-	    	\includegraphics[width=0.5\textwidth]{img/grupos}
+	    	\includegraphics[width=0.8\textwidth]{img/grupos}
 	    	\caption{Lista de grupos}
 	    	\label{grupos}
 	    \end{figure}	    
 
 	    \begin{figure}[h]
 	    	\centering
-	    	\includegraphics[width=0.5\textwidth]{img/nuevo_grupo}
+	    	\includegraphics[width=0.8\textwidth]{img/nuevo_grupo}
 	    	\caption{Formulario para la creación de nuevo grupo}
 	    	\label{nuevo_grupo}
 	    \end{figure}	    	    
 	    
 	    	    \begin{figure}[h]
 	    	    	\centering
-	    	    	\includegraphics[width=0.5\textwidth]{img/nuevo_usuario_grupo}
+	    	    	\includegraphics[width=0.8\textwidth]{img/nuevo_usuario_grupo}
 	    	    	\caption{Formulario para añadir un usuario a un grupo}
 	    	    	\label{nuevo_usuario_grupo}
 	    	    \end{figure}	    	    
 	    	    
 	    	    	    \begin{figure}[h]
 	    	    	    	\centering
-	    	    	    	\includegraphics[width=0.5\textwidth]{img/compartir_analisis_grupo}
+	    	    	    	\includegraphics[width=0.8\textwidth]{img/compartir_analisis_grupo}
 	    	    	    	\caption{Formulario para compartir un análisis con un grupo}
 	    	    	    	\label{compartir_analisis_grupo}
 	    	    	    \end{figure}	    	    
@@ -385,16 +385,10 @@ Aquí se realizará una conclusión general de lo que se descubrió en las prueb
                 \item \textbf{Cerrado} Se añade a la clase Profile el atributo booleano is\_health\_professional, que indica si el perfil pertenece a un profesional médico.
                 \end{sloppypar}
                 \item \textbf{Cerrado} Se crea el recurso \textbf{MySharedAnalysisProfileList} que mediante el servicio GET, retorna todos los perfiles de usuario que son dueños de análisis sobre los cuales el usuario autenticado tiene permisos. 
-                \item \textbf{Cerrado} Se permite la inclusión de caracteres numéricos en el campo symbol de MeasurementUnit. Esto es para poder cargar simbolos como m3, g/dm3, entre otros.
-                \item \textbf{Cerrado} Se implementó el adaptador para la carga de archivos al sistema hosteado de almacenamiento ofrecido por google, Drive, para ello se relevo la api ofrecida por google y el uso del cliente para la comunicación entre YesDoc y el mismo. El siguiente diagrama [\ref{9-archivos-drive}] muestra el diseño actual para la gestión de archivos.   
+                \item \textbf{Cerrado} Se permite la inclusión de caracteres numéricos en el campo symbol de MeasurementUnit. Esto es para poder cargar simbolos como m3, g/dm3, entre otros.   
 			\end{itemize}
 			
-				\begin{figure}[h]
-			        \centering
-			        \includegraphics[width=0.9\textwidth]{img/dcd_archivos_drive}
-			        \caption{Gestión de archivos con Drive.}
-					\label{9-archivos-drive}
-			    \end{figure}
+
 
    		\item \textbf{¿Qué se puede mejorar?}
         	\begin{itemize}
